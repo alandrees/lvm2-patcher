@@ -16,4 +16,4 @@ When given the initramfs prompt, you can enter
 
 This will get you back into your system.
 
-This script applies the patch and updates your initramfs with the updated file.
+This script applies the patch and updates your initramfs with the updated file, so you don't need to go the the local console every time you want to start your system.
