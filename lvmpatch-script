@@ -1,0 +1,9 @@
+#!/bin/bash
+
+PATCHFILE=$(pwd)/lvm2patch
+
+cd /usr/share/initramfs-tools/scripts/local-top
+
+patch < $PATCHFILE
+
+update-initramfs -u
